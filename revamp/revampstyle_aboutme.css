@@ -1,0 +1,121 @@
+html {
+
+    background: url(../images/aboutme_background_2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  body{
+
+    color: whitesmoke;
+    margin-left: 12em;
+    margin-right: 12em;
+    font-family: testFont;
+    padding-bottom: 4em;
+  }
+
+  @font-face{
+
+    font-family: testFont;
+    src:url(roboto/roboto-light.ttf)
+
+}
+
+@font-face {
+
+  font-family: fontTwo;
+  src: url(Lora/Lora-VariableFont_wght.ttf);
+
+}
+
+  header{
+
+    font-size: 55px;
+    margin-top: 1.3em;
+    text-decoration: none;
+    margin-left: -1em;
+    font-family: fontTwo;
+  }
+
+
+section{
+
+    font-size: 20px;
+    margin-top: 3em;
+    margin-right: 18em;
+    margin-left: 0;
+    line-height: 1.3em;
+    padding-bottom: 3em;
+}
+
+h1{
+
+  font-family: testFont;
+  margin-bottom: 1em;
+  margin-left: -.5em;
+  font-size: 35px;
+
+}
+
+h2{
+
+  font-family: testFont;
+  margin-bottom: 1em;
+  margin-left: -.5em;
+  font-size: 30px;
+
+}
+
+h1, h2{
+
+  color: #fc83b0;
+
+}
+
+h3{
+
+  color:whitesmoke;
+}
+
+ul, li{
+
+  list-style-type: none;
+  margin: 1em;
+  font-size: 18px;
+
+}
+
+nav{
+
+    margin-top: 1.8em;
+
+}
+
+a{
+
+    color: whitesmoke;
+    padding: 1.5em 1.5em 0 0;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color:gold;
+
+}
+
+.googlink{
+
+  color: #9DACED;
+}
+
+footer{
+
+  margin: -3em;
+  padding: 2em 2em 1em 2em;
+
+}

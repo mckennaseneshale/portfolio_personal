@@ -1,0 +1,89 @@
+html{
+
+    background-color: black;
+
+}
+
+@font-face{
+
+    font-family: testFont;
+    src:url(roboto/roboto-light.ttf)
+
+}
+
+@font-face {
+    font-family: fontTwo;
+    src: url(Lora/Lora-VariableFont_wght.ttf);
+}
+
+body{
+
+    color: whitesmoke;
+    margin-left: 12em;
+    margin-right: 12em;
+    font-family: testFont;
+    padding-bottom: 4em;
+}
+
+header{
+
+    font-size: 55px;
+    margin-top: 1.3em;
+    text-decoration: none;
+    margin-left: -1em;
+    font-family: fontTwo;
+  }
+
+
+section{
+
+    font-size: 18px;
+    margin-top: 1.6em;
+    margin-bottom: 2em;
+}
+
+nav{
+
+    margin-top: 1.8em;
+
+}
+
+a{
+
+    color: whitesmoke;
+    padding: 1.5em 1.5em 0 0;
+    text-decoration: none;
+}
+
+a:hover{
+
+    color:gold;
+
+}
+
+form{
+
+    line-height: 3em;
+    
+
+}
+
+
+
+
+
+
+img{
+
+    width: auto;
+    height: 15em;
+    margin: 2em;
+}
+
+
+footer{
+
+    margin: -3em;
+    padding: 2em 2em 1em 2em;
+  
+  }
