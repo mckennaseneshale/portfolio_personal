@@ -23,6 +23,7 @@ body{
     margin-right: 12em;
     font-family: testFont;
     padding-bottom: 4em;
+    text-decoration: none;
 }
 
 header{
